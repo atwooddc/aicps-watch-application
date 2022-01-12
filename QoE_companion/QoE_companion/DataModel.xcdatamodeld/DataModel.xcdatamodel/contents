@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataPoint" representedClassName="DataPoint" syncable="YES">
+        <attribute name="accX" optional="YES" attributeType="Double" valueTransformerName="NSSecureUnarchiveFromDataTransformer" defaultValueString="0.0" usesScalarValueType="YES" customClassName=".[[Double]]"/>
+        <attribute name="accY" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="accZ" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="gyroX" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="gyroY" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="gyroZ" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="heartRate" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="sensordata" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SensorData" inverseName="datapoints" inverseEntity="SensorData"/>
+    </entity>
+    <entity name="SensorData" representedClassName="SensorData" syncable="YES">
+        <attribute name="duration" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="datapoints" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="DataPoint" inverseName="sensordata" inverseEntity="DataPoint"/>
+    </entity>
+    <elements>
+        <element name="DataPoint" positionX="-63" positionY="-18" width="128" height="164"/>
+        <element name="SensorData" positionX="-63" positionY="36" width="128" height="104"/>
+    </elements>
+</model>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2BAC45CC-428F-4F2E-A9CA-F8B5EE8C4763"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A1BFB41-CE50-43CE-801B-E1BE1C64D6BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QoE_companion WatchKit Extension/InterfaceController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "InterfaceController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6A1BFB41-CE50-43CE-801B-E1BE1C64D6BA - 642b788a7e49ee89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QoE_companion_WatchKit_Extension.InterfaceController.recordingStatus.getter : Swift.Optional&lt;__C.WKInterfaceLabel&gt;"
+                  moduleName = "QoE_companion WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidatwood/Documents/compsci/AICPSlab/ActivityQualityDetection/QoE_companion/QoE_companion%20WatchKit%20Extension/InterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "6A1BFB41-CE50-43CE-801B-E1BE1C64D6BA - 3bac2141f6a70285"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QoE_companion_WatchKit_Extension.InterfaceController.recordingStatus.setter : Swift.Optional&lt;__C.WKInterfaceLabel&gt;"
+                  moduleName = "QoE_companion WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidatwood/Documents/compsci/AICPSlab/ActivityQualityDetection/QoE_companion/QoE_companion%20WatchKit%20Extension/InterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "6A1BFB41-CE50-43CE-801B-E1BE1C64D6BA - 4e9392bfa3ee1c61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QoE_companion_WatchKit_Extension.InterfaceController.recordingStatus.modify : Swift.Optional&lt;__C.WKInterfaceLabel&gt;"
+                  moduleName = "QoE_companion WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidatwood/Documents/compsci/AICPSlab/ActivityQualityDetection/QoE_companion/QoE_companion%20WatchKit%20Extension/InterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "6A1BFB41-CE50-43CE-801B-E1BE1C64D6BA - b848aba32514e88d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QoE_companion_WatchKit_Extension.InterfaceController.recordingStatus.modify : Swift.Optional&lt;__C.WKInterfaceLabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "QoE_companion WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidatwood/Documents/compsci/AICPSlab/ActivityQualityDetection/QoE_companion/QoE_companion%20WatchKit%20Extension/InterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6A1BFB41-CE50-43CE-801B-E1BE1C64D6BA - 5b04588c28a1ec61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QoE_companion_WatchKit_Extension.InterfaceController.init() -&gt; QoE_companion_WatchKit_Extension.InterfaceController"
+                  moduleName = "QoE_companion WatchKit Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidatwood/Documents/compsci/AICPSlab/ActivityQualityDetection/QoE_companion/QoE_companion%20WatchKit%20Extension/InterfaceController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "368">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
